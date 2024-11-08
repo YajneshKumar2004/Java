@@ -6,7 +6,7 @@ public class Guess_the_number
         Scanner sc = new Scanner(System.in);
         System.out.print("Guess the number between 1-6: ");
         Random rand = new Random();
-        int guess = rand.nextInt(1,7);
+        int guess = rand.nextInt(2,7);
         for(int i=0; i<4; i++)
         {
             try{
